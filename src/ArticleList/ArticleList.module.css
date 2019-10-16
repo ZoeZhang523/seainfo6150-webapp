@@ -1,15 +1,18 @@
 ul {
-    background-color: rgb(145, 145, 145);
+    background-color: rgb(173, 173, 173);
     border: 2px dashed dimgray;
     margin: 4%;
     list-style-type:none;
-    
+    border-radius: 20px;
+    box-shadow: 0 10px 5px grey;
 }
 li {
-    float: center;
     background-color: rgb(248, 244, 244);
     border: 2px solid rgb(190, 37, 37);
     padding: 2%;
-    margin: 3% -0.1%;
+    margin: 3% -1%;
     width: 93%;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgb(206, 99, 99) , white 15%);
+    box-shadow: 0 10px 5px grey;
 }

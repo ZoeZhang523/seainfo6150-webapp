@@ -5,3 +5,6 @@ h1 {
 time {
     font-weight: bold;
 }
+section {
+    display: flex;
+}
