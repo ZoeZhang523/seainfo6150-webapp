@@ -8,3 +8,23 @@ button {
     padding: 10px 30px;
     width: 95%;
 }
+@media (min-width: 400px) {
+    .button {
+        border-radius: 5px;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 800px) {
+    .button {
+        border-radius: 10px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .button {
+        border-radius: 20px;
+        font-size: 40px;
+    }
+}

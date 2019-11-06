@@ -16,3 +16,20 @@ time {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+@media (min-width: 400px) {
+    .h1 {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 800px) {
+    .h1 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .h1 {
+        font-size: 60px;
+    }
+}
